@@ -30,8 +30,8 @@ script:
         --filter='P /documentation/dev'
         --exclude='*.map'
         --exclude='*.md5'
-        --delete
-        --delete-excluded
+        # --delete
+        # --delete-excluded
       )
       RSYNC_USER="ctdeploy";
       RSYNC_SERVER="cantera.org";
